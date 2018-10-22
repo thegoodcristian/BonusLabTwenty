@@ -42,7 +42,7 @@ public class ShoppingList {
 			} else if (checkContents == true) {
 
 				int itemIndex = groceryItems.indexOf(itemChoice);
-				System.out.println("\n" + groceryItems.get(itemIndex) + "\t" + groceryPrices.get(itemIndex));
+				System.out.println("\n" + groceryItems.get(itemIndex) + "\t$" + groceryPrices.get(itemIndex));
 
 				shoppingCartItems.add(itemChoice);
 				shoppingCartPrices.add(groceryPrices.get(itemIndex));
