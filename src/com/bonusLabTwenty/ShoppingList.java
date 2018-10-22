@@ -75,8 +75,8 @@ public class ShoppingList {
 			sum += number;
 		}
 
-		System.out.println("YOUR TOTAL IS:\t\t$" + sum
-				+ "\nAverage item price: \t$" + (sum/shoppingCartPrices.size()));
+		System.out.printf("YOUR TOTAL IS:\t\t$" + sum
+				+ "\nAverage item price: \t$%.2f", (sum/shoppingCartPrices.size()));
 		
 		
 		
